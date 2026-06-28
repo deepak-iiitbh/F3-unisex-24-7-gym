@@ -1,10 +1,9 @@
 {
-  "projectId": "predictive-silo-m71nt",
-  "appId": "1:785436459100:web:7c589e60301f0b68092699",
-  "apiKey": "AIzaSyCzIHBTPL_cDgRIcMuelRbGBJR8qhnBZ6Q",
-  "authDomain": "predictive-silo-m71nt.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-fbfe5fb5-8848-4d0f-b0dc-34c8d1ea4418",
-  "storageBucket": "predictive-silo-m71nt.firebasestorage.app",
-  "messagingSenderId": "785436459100",
-  "measurementId": ""
+  "projectId": "f3-gym-f177d",
+  "appId": "1:240408289686:web:e0a3ca13ab30d9515f7db7",
+  "apiKey": "AIzaSyBWGo9iUDK0xz6exvqhRAErIevNF6dDVB8",
+  "authDomain": "f3-gym-f177d.firebaseapp.com",
+  "storageBucket": "f3-gym-f177d.firebasestorage.app",
+  "messagingSenderId": "240408289686",
+  "measurementId": "G-9PFCGXP4NK"
 }
