@@ -1,0 +1,6 @@
+{
+  "name": "F3 GYM",
+  "description": "Premium fitness gym featuring dynamic class schedules, trainer profiles, interactive membership signup, and a personalized user dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

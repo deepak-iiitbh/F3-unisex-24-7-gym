@@ -1,0 +1,47 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Stores user gym profile, membership details, and active gym bookings",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The user's display name"
+        },
+        "email": {
+          "type": "string",
+          "description": "The user's email address"
+        },
+        "membershipPlanId": {
+          "type": "string",
+          "description": "ID of their active membership plan"
+        },
+        "membershipStatus": {
+          "type": "string",
+          "enum": ["Active", "Pending", "None"],
+          "description": "Current status of the membership"
+        },
+        "memberSince": {
+          "type": "string",
+          "description": "The ISO date string when they joined"
+        },
+        "qrCodeValue": {
+          "type": "string",
+          "description": "Token representing virtual gate pass"
+        },
+        "payments": {
+          "type": "array",
+          "description": "History of transaction payments and receipts"
+        }
+      },
+      "required": ["name", "email"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Detailed profile document for each gym member"
+    }
+  }
+}
